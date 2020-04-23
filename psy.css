@@ -1,0 +1,73 @@
+@font-face { font-family: 'JSDongkang-Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+h1{
+    text-align: center;
+    color: #223725;
+}
+h4{
+    text-align: center;
+    color: #142116;
+}
+.intro{
+    text-align:center;
+    width: 600px;
+    margin: 30px auto;
+    color:#142116;
+    font-family: 'JSDongkang-Regular';
+}
+ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr;
+}
+body{
+    background-color: #8BDF95;
+}
+img{
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr;
+}
+li{
+    background-color:#00664f;
+    padding: 10px;
+    margin: 2px;
+    height: 300px;
+    border-radius: 5px;
+}
+.square{
+    padding-top:35px;
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about{ 
+    font-size: 27px;
+    text-align: center;
+    font-weight: 900;
+    color:#37583B
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    color:#37583B
+}
+.things{
+    text-align: center;
+    color:white;
+    width: 600px;
+    margin: 30px auto;
+}
+.wishlists{
+    text-align: center;
+}

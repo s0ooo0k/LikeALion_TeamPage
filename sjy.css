@@ -1,0 +1,59 @@
+@font-face { font-family: 'GmarketSansBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BBTreeGR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/*라임색 배경화면*/
+body {
+    background-color: #E5EE6E;
+    text-align: center;
+}
+
+/*흰색 박스 및 공통설정*/
+.box {
+    background: #ffffff; 
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.box h2 {
+    font-family: 'GmarketSansBold';
+    font-size: 1.6rem;
+}
+
+.box p {
+    font-family: 'BBTreeGR';
+    font-size: 1.15rem;
+    line-height: 25px;
+}
+
+/* 자기소개 */
+.box h1 { 
+    font-family: 'GmarketSansBold';
+    font-size: 2.5rem;
+    margin: 0px;
+    padding: 40px;
+}
+
+.intro span {
+    background-color: white;
+    font-family: 'BBTreeGR';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.title.a {
+    margin-top: 0px;
+}
+
+.box hr {
+    width: 450px;
+    margin-top: 60px;
+    border: gray dashed 2px;
+}
+
+/* 코로나가 사라진다면 */
+.corona img {
+    padding-top: 50px;
+}
+
+.corona p {
+    padding-bottom: 40px;
+}

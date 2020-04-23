@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+.kopub * {
+    font-family: 'KoPub Batang', sans-serif;
+}
+
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(252, 243, 236);
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-shadow: -2px 0 rgb(179, 203, 248), 0 2px rgb(179, 203, 248),2px 0 rgb(179, 203, 248),0 -2px rgb(179, 203, 248);
+}
+.like {
+   margin-top: 100px;
+
+}
+.like image{
+margin:0 auto;
+text-align: center;
+padding: 50px 20px;
+}
+
+#banner {
+    background-image: url("kh_puppy.png");
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 700px;
+}
+#banner .content h1 {
+    position: relative;
+    top: 500px;
+    margin: 0 auto;
+    width: 400px;
+    
+}
+
+#main {
+    font-family: 'Recipekorea';
+    font-size: 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    color: rgb(255, 205, 222);
+    font-family: cursive;
+    font-size: 62px;
+    text-shadow: -2px 0 turquoise, 0 2px turquoise,2px 0 turquoise,0 -2px turquoise;
+    text-transform: uppercase;
+    text-align: center ; 
+}
+
+h3 {
+    color: gray;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+h4 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+h5 {
+    color: #333;
+    font-family: 'Recipekorea';
+    font-size: 25px;
+    text-align: center;
+    line-height: 48px;
+}
+
+p {
+    color: #333;
+    font-family: 'Recipekorea';
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+}
+
+
+
+.share {
+    border: 1px solid LightGrey;
+    padding: 40px 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.share a {
+    font-size: 60px;
+    font-family: cursive;
+    background: rgb(16, 2, 65);
+    border: 1px solid skyblue;
+    border-radius: 14px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
